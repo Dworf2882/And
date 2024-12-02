@@ -1,0 +1,10 @@
+/home/dworf/And/build/cpp/CMakeFiles/uninstall.dir
+/home/dworf/And/build/cpp/CMakeFiles/cpp_uninstall.dir
+/home/dworf/And/build/cpp/CMakeFiles/sensor.dir
+/home/dworf/And/build/cpp/CMakeFiles/test.dir
+/home/dworf/And/build/cpp/CMakeFiles/edit_cache.dir
+/home/dworf/And/build/cpp/CMakeFiles/rebuild_cache.dir
+/home/dworf/And/build/cpp/CMakeFiles/list_install_components.dir
+/home/dworf/And/build/cpp/CMakeFiles/install.dir
+/home/dworf/And/build/cpp/CMakeFiles/install/local.dir
+/home/dworf/And/build/cpp/CMakeFiles/install/strip.dir

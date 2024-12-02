@@ -1,0 +1,93 @@
+[0.032s] Invoking command in '/home/dworf/And/build/factarial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --build /home/dworf/And/build/factarial -- -j16 -l16
+[0.097s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.427s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.512s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.520s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.538s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.696s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.701s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.755s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.891s] -- Found test_msgs: 0.0.0 (/home/dworf/test/install/test_msgs/share/test_msgs/cmake)
+[0.927s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.098s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.098s] -- Configured cppcheck include dirs: 
+[1.098s] -- Configured cppcheck exclude dirs and/or files: 
+[1.100s] -- Added test 'lint_cmake' to check CMake code style
+[1.103s] -- Added test 'uncrustify' to check C / C++ code style
+[1.103s] -- Configured uncrustify additional arguments: 
+[1.104s] -- Added test 'xmllint' to check XML markup files
+[1.106s] -- Configuring done
+[1.152s] -- Generating done
+[1.157s] -- Build files have been written to: /home/dworf/And/build/factarial
+[1.219s] [35m[1mConsolidate compiler generated dependencies of target fact_cln[0m
+[1.220s] [35m[1mConsolidate compiler generated dependencies of target fact_srv[0m
+[1.246s] [ 12%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[1.248s] [ 25%] [32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o[0m
+[1.269s] [ 37%] [32mBuilding CXX object CMakeFiles/fact_cln.dir/src/factCNT.cpp.o[0m
+[1.270s] [ 62%] Built target fact_srv
+[1.902s] [01m[K/home/dworf/And/src/factarial/src/service.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/add_two_ints.hpp: No such file or directory
+[1.902s]     2 | #include [01;31m[K"example_interfaces/srv/add_two_ints.hpp"[m[K
+[1.902s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.902s] compilation terminated.
+[1.903s] [01m[K/home/dworf/And/src/factarial/src/client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/srv/add_two_ints.hpp: No such file or directory
+[1.903s]     2 | #include [01;31m[K"example_interfaces/srv/add_two_ints.hpp"[m[K
+[1.904s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.904s] compilation terminated.
+[1.918s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+[1.918s] gmake[2]: *** [CMakeFiles/service.dir/build.make:76: CMakeFiles/service.dir/src/service.cpp.o] Error 1
+[1.918s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/client.dir/all] Error 2
+[1.919s] gmake[1]: *** Waiting for unfinished jobs....
+[1.919s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/service.dir/all] Error 2
+[6.149s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.149s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.150s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.151s]                  from [01m[K/home/dworf/And/src/factarial/src/factCNT.cpp:1[m[K:
+[6.151s] [01m[K/home/dworf/And/src/factarial/src/factCNT.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.151s] [01m[K/home/dworf/And/src/factarial/src/factCNT.cpp:27:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ktest_msgs::srv::Fact_Request_<std::allocator<void> >::_numb_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[6.151s]    27 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Factorial of %d is %d"[m[K, [32m[Krequest->numb[m[K, result.get()->result);
+[6.151s]       |                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~[m[K
+[6.151s]       |                                                                                     [32m[K|[m[K
+[6.151s]       |                                                                                     [32m[Ktest_msgs::srv::Fact_Request_<std::allocator<void> >::_numb_type {aka long int}[m[K
+[6.152s] [01m[K/home/dworf/And/src/factarial/src/factCNT.cpp:27:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[6.152s]    27 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Factorial of [01;36m[K%d[m[K is %d", request->numb, result.get()->result);
+[6.152s]       |                                                                 [01;36m[K~^[m[K
+[6.152s]       |                                                                  [01;36m[K|[m[K
+[6.152s]       |                                                                  [01;36m[Kint[m[K
+[6.152s]       |                                                                 [32m[K%ld[m[K
+[6.152s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[6.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.154s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.154s]                  from [01m[K/home/dworf/And/src/factarial/src/factCNT.cpp:1[m[K:
+[6.154s] [01m[K/home/dworf/And/src/factarial/src/factCNT.cpp:27:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ktest_msgs::srv::Fact_Response_<std::allocator<void> >::_result_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[6.154s]    27 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Factorial of %d is %d"[m[K, request->numb, [32m[Kresult.get()->result[m[K);
+[6.154s]       |                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K                 [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[6.154s]       |                                                                                                         [32m[K|[m[K
+[6.155s]       |                                                                                                         [32m[Ktest_msgs::srv::Fact_Response_<std::allocator<void> >::_result_type {aka long int}[m[K
+[6.155s] [01m[K/home/dworf/And/src/factarial/src/factCNT.cpp:27:72:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[6.155s]    27 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Factorial of %d is [01;36m[K%d[m[K", request->numb, result.get()->result);
+[6.155s]       |                                                                       [01;36m[K~^[m[K
+[6.155s]       |                                                                        [01;36m[K|[m[K
+[6.155s]       |                                                                        [01;36m[Kint[m[K
+[6.155s]       |                                                                       [32m[K%ld[m[K
+[8.041s] [ 75%] [32m[1mLinking CXX executable fact_cln[0m
+[8.242s] [ 75%] Built target fact_cln
+[8.244s] gmake: *** [Makefile:146: all] Error 2
+[8.248s] Invoked command in '/home/dworf/And/build/factarial' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --build /home/dworf/And/build/factarial -- -j16 -l16

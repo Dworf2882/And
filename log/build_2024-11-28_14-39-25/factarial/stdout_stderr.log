@@ -1,0 +1,117 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found test_msgs: 0.0.0 (/home/dworf/test/install/test_msgs/share/test_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dworf/And/build/factarial
+[35m[1mConsolidate compiler generated dependencies of target fact_cln[0m
+[35m[1mConsolidate compiler generated dependencies of target fact_srv[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/fact_cln.dir/src/factCNT.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/fact_srv.dir/src/factSRV.cpp.o[0m
+[01m[K/home/dworf/And/src/factarial/src/service.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktest_msgs/srv/TwoInts.hpp: No such file or directory
+    2 | #include [01;31m[K"test_msgs/srv/TwoInts.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/dworf/And/src/factarial/src/client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktest_msgs/srv/TwoInts.hpp: No such file or directory
+    2 | #include [01;31m[K"test_msgs/srv/TwoInts.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/service.dir/build.make:76: CMakeFiles/service.dir/src/service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/service.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/client.dir/all] Error 2
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dworf/And/src/factarial/src/factSRV.cpp:1[m[K:
+[01m[K/home/dworf/And/src/factarial/src/factSRV.cpp:[m[K In function ‘[01m[Kint factorial(std::shared_ptr<test_msgs::srv::Fact_Request_<std::allocator<void> > >, std::shared_ptr<test_msgs::srv::Fact_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/dworf/And/src/factarial/src/factSRV.cpp:9:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+    9 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Factorial of %ld is 1"[m[K, [32m[Knumber[m[K);
+      |                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+      |                                                                            [32m[K|[m[K
+      |                                                                            [32m[Kint[m[K
+[01m[K/home/dworf/And/src/factarial/src/factSRV.cpp:9:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+    9 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Factorial of [01;36m[K%ld[m[K is 1", number);
+      |                                                                 [01;36m[K~~^[m[K
+      |                                                                   [01;36m[K|[m[K
+      |                                                                   [01;36m[Klong int[m[K
+      |                                                                 [32m[K%d[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dworf/And/src/factarial/src/factCNT.cpp:1[m[K:
+[01m[K/home/dworf/And/src/factarial/src/factCNT.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/dworf/And/src/factarial/src/factCNT.cpp:27:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ktest_msgs::srv::Fact_Request_<std::allocator<void> >::_numb_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   27 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Factorial of %d is %d"[m[K, [32m[Krequest->numb[m[K, result.get()->result);
+      |                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~[m[K
+      |                                                                                     [32m[K|[m[K
+      |                                                                                     [32m[Ktest_msgs::srv::Fact_Request_<std::allocator<void> >::_numb_type {aka long int}[m[K
+[01m[K/home/dworf/And/src/factarial/src/factCNT.cpp:27:66:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   27 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Factorial of [01;36m[K%d[m[K is %d", request->numb, result.get()->result);
+      |                                                                 [01;36m[K~^[m[K
+      |                                                                  [01;36m[K|[m[K
+      |                                                                  [01;36m[Kint[m[K
+      |                                                                 [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dworf/And/src/factarial/src/factCNT.cpp:1[m[K:
+[01m[K/home/dworf/And/src/factarial/src/factCNT.cpp:27:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ktest_msgs::srv::Fact_Response_<std::allocator<void> >::_result_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   27 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Factorial of %d is %d"[m[K, request->numb, [32m[Kresult.get()->result[m[K);
+      |                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K                 [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                         [32m[K|[m[K
+      |                                                                                                         [32m[Ktest_msgs::srv::Fact_Response_<std::allocator<void> >::_result_type {aka long int}[m[K
+[01m[K/home/dworf/And/src/factarial/src/factCNT.cpp:27:72:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   27 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Factorial of %d is [01;36m[K%d[m[K", request->numb, result.get()->result);
+      |                                                                       [01;36m[K~^[m[K
+      |                                                                        [01;36m[K|[m[K
+      |                                                                        [01;36m[Kint[m[K
+      |                                                                       [32m[K%ld[m[K
+[ 62%] [32m[1mLinking CXX executable fact_srv[0m
+[ 75%] [32m[1mLinking CXX executable fact_cln[0m
+[ 75%] Built target fact_srv
+[ 75%] Built target fact_cln
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "cstdlib": "cpp",
+        "chrono": "cpp"
+    },
+    "cmake.sourceDirectory": "/home/dworf/And/src/factarial",
+    "python.autoComplete.extraPaths": [
+        "/home/dworf/test/install/drontest/lib/python3.10/site-packages",
+        "/home/dworf/test/install/test_msgs/local/lib/python3.10/dist-packages",
+        "/home/dworf/Firmware2/install/aerobot_gz_sim/lib/python3.10/site-packages",
+        "/home/dworf/PinkDemon/install/pink_demon/lib/python3.10/site-packages",
+        "/home/dworf/PinkDemon/install/lslidar_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/dworf/test/install/drontest/lib/python3.10/site-packages",
+        "/home/dworf/test/install/test_msgs/local/lib/python3.10/dist-packages",
+        "/home/dworf/Firmware2/install/aerobot_gz_sim/lib/python3.10/site-packages",
+        "/home/dworf/PinkDemon/install/pink_demon/lib/python3.10/site-packages",
+        "/home/dworf/PinkDemon/install/lslidar_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

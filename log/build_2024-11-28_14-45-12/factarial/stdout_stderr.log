@@ -1,0 +1,30 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o[0m
+[ 87%] Built target client
+[ 87%] Built target fact_cln
+[ 87%] Built target fact_srv
+[100%] [32m[1mLinking CXX executable service[0m
+[100%] Built target service
+-- Install configuration: ""
+-- Installing: /home/dworf/And/install/factarial/lib/factarial/fact_srv
+-- Set runtime path of "/home/dworf/And/install/factarial/lib/factarial/fact_srv" to ""
+-- Installing: /home/dworf/And/install/factarial/lib/factarial/fact_cln
+-- Set runtime path of "/home/dworf/And/install/factarial/lib/factarial/fact_cln" to ""
+-- Installing: /home/dworf/And/install/factarial/lib/factarial/client
+-- Set runtime path of "/home/dworf/And/install/factarial/lib/factarial/client" to ""
+-- Installing: /home/dworf/And/install/factarial/lib/factarial/service
+-- Set runtime path of "/home/dworf/And/install/factarial/lib/factarial/service" to ""
+-- Installing: /home/dworf/And/install/factarial/share/ament_index/resource_index/package_run_dependencies/factarial
+-- Installing: /home/dworf/And/install/factarial/share/ament_index/resource_index/parent_prefix_path/factarial
+-- Up-to-date: /home/dworf/And/install/factarial/share/factarial/environment/ament_prefix_path.sh
+-- Installing: /home/dworf/And/install/factarial/share/factarial/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dworf/And/install/factarial/share/factarial/environment/path.sh
+-- Installing: /home/dworf/And/install/factarial/share/factarial/environment/path.dsv
+-- Up-to-date: /home/dworf/And/install/factarial/share/factarial/local_setup.bash
+-- Up-to-date: /home/dworf/And/install/factarial/share/factarial/local_setup.sh
+-- Up-to-date: /home/dworf/And/install/factarial/share/factarial/local_setup.zsh
+-- Installing: /home/dworf/And/install/factarial/share/factarial/local_setup.dsv
+-- Installing: /home/dworf/And/install/factarial/share/factarial/package.dsv
+-- Up-to-date: /home/dworf/And/install/factarial/share/ament_index/resource_index/packages/factarial
+-- Up-to-date: /home/dworf/And/install/factarial/share/factarial/cmake/factarialConfig.cmake
+-- Up-to-date: /home/dworf/And/install/factarial/share/factarial/cmake/factarialConfig-version.cmake
+-- Installing: /home/dworf/And/install/factarial/share/factarial/package.xml

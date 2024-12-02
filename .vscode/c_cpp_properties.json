@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/dworf/test/install/test_msgs/include/**",
+        "/home/dworf/PinkDemon/install/lslidar_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/dworf/And/src/cpp/include/**",
+        "/home/dworf/And/src/factarial/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

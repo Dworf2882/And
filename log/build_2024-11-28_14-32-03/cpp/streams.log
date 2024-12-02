@@ -1,0 +1,22 @@
+[0.043s] Invoking command in '/home/dworf/And/build/cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --build /home/dworf/And/build/cpp -- -j16 -l16
+[0.189s] [100%] Built target sensor
+[0.220s] Invoked command in '/home/dworf/And/build/cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --build /home/dworf/And/build/cpp -- -j16 -l16
+[0.318s] Invoking command in '/home/dworf/And/build/cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --install /home/dworf/And/build/cpp
+[0.338s] -- Install configuration: ""
+[0.339s] -- Up-to-date: /home/dworf/And/install/cpp/lib/cpp/sensor
+[0.339s] -- Up-to-date: /home/dworf/And/install/cpp/share/ament_index/resource_index/package_run_dependencies/cpp
+[0.339s] -- Up-to-date: /home/dworf/And/install/cpp/share/ament_index/resource_index/parent_prefix_path/cpp
+[0.340s] -- Up-to-date: /home/dworf/And/install/cpp/share/cpp/environment/ament_prefix_path.sh
+[0.340s] -- Up-to-date: /home/dworf/And/install/cpp/share/cpp/environment/ament_prefix_path.dsv
+[0.340s] -- Up-to-date: /home/dworf/And/install/cpp/share/cpp/environment/path.sh
+[0.340s] -- Up-to-date: /home/dworf/And/install/cpp/share/cpp/environment/path.dsv
+[0.340s] -- Up-to-date: /home/dworf/And/install/cpp/share/cpp/local_setup.bash
+[0.341s] -- Up-to-date: /home/dworf/And/install/cpp/share/cpp/local_setup.sh
+[0.341s] -- Up-to-date: /home/dworf/And/install/cpp/share/cpp/local_setup.zsh
+[0.341s] -- Up-to-date: /home/dworf/And/install/cpp/share/cpp/local_setup.dsv
+[0.341s] -- Installing: /home/dworf/And/install/cpp/share/cpp/package.dsv
+[0.341s] -- Up-to-date: /home/dworf/And/install/cpp/share/ament_index/resource_index/packages/cpp
+[0.341s] -- Up-to-date: /home/dworf/And/install/cpp/share/cpp/cmake/cppConfig.cmake
+[0.342s] -- Up-to-date: /home/dworf/And/install/cpp/share/cpp/cmake/cppConfig-version.cmake
+[0.342s] -- Up-to-date: /home/dworf/And/install/cpp/share/cpp/package.xml
+[0.347s] Invoked command in '/home/dworf/And/build/cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --install /home/dworf/And/build/cpp

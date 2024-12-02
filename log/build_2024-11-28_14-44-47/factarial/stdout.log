@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[35m[1mConsolidate compiler generated dependencies of target fact_cln[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o[0m
+[ 37%] Built target fact_srv
+[ 62%] Built target fact_cln
+[ 87%] Built target client

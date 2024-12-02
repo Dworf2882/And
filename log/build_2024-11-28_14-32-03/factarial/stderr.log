@@ -1,0 +1,14 @@
+[01m[K/home/dworf/And/src/factarial/src/service.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktest_msgs/srv/add_two_ints.hpp: No such file or directory
+    2 | #include [01;31m[K"test_msgs/srv/add_two_ints.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/dworf/And/src/factarial/src/client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktest_msgs/srv/add_two_ints.hpp: No such file or directory
+    2 | #include [01;31m[K"test_msgs/srv/add_two_ints.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/service.dir/build.make:76: CMakeFiles/service.dir/src/service.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/service.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,8 @@
+source;share/factarial/hook/cmake_prefix_path.ps1
+source;share/factarial/hook/cmake_prefix_path.dsv
+source;share/factarial/hook/cmake_prefix_path.sh
+source;share/factarial/local_setup.bash
+source;share/factarial/local_setup.dsv
+source;share/factarial/local_setup.ps1
+source;share/factarial/local_setup.sh
+source;share/factarial/local_setup.zsh

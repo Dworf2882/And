@@ -1,0 +1,15 @@
+[0.034s] Invoking command in '/home/dworf/And/build/factarial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --build /home/dworf/And/build/factarial -- -j16 -l16
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target fact_cln[0m
+[0.169s] [ 12%] [32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o[0m
+[0.184s] [ 37%] Built target fact_srv
+[0.193s] [ 62%] Built target fact_cln
+[0.194s] [ 87%] Built target client
+[0.842s] [01m[K/home/dworf/And/src/factarial/src/service.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktest_msgs/srv/TwoInts.hpp: No such file or directory
+[0.842s]     2 | #include [01;31m[K"test_msgs/srv/TwoInts.hpp"[m[K
+[0.843s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.843s] compilation terminated.
+[0.857s] gmake[2]: *** [CMakeFiles/service.dir/build.make:76: CMakeFiles/service.dir/src/service.cpp.o] Error 1
+[0.858s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/service.dir/all] Error 2
+[0.859s] gmake: *** [Makefile:146: all] Error 2
+[0.864s] Invoked command in '/home/dworf/And/build/factarial' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --build /home/dworf/And/build/factarial -- -j16 -l16

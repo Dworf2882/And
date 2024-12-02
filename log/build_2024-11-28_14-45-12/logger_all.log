@@ -1,0 +1,208 @@
+[0.136s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.136s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7519b3d30be0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7519b3e45870>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7519b3e45870>>)
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.358s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dworf/And'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp) by extension 'ros'
+[0.375s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp' with type 'ros.ament_cmake' and name 'cpp'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/factarial) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/factarial) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/factarial) by extension 'ignore_ament_install'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/factarial) by extensions ['colcon_pkg']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/factarial) by extension 'colcon_pkg'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/factarial) by extensions ['colcon_meta']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/factarial) by extension 'colcon_meta'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/factarial) by extensions ['ros']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/factarial) by extension 'ros'
+[0.377s] DEBUG:colcon.colcon_core.package_identification:Package 'src/factarial' with type 'ros.ament_cmake' and name 'factarial'
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.411s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.414s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/dworf/And/install
+[0.414s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/dworf/test/install
+[0.415s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/dworf/Firmware2/install
+[0.415s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/dworf/PinkDemon/install
+[0.417s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 332 installed packages in /opt/ros/humble
+[0.419s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'cpp' build argument 'cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'cpp' build argument 'cmake_target' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.465s] Level 5:colcon.colcon_core.verb:set package 'cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.465s] DEBUG:colcon.colcon_core.verb:Building package 'cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dworf/And/build/cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dworf/And/install/cpp', 'merge_install': False, 'path': '/home/dworf/And/src/cpp', 'symlink_install': False, 'test_result_base': None}
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'factarial' build argument 'cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'factarial' build argument 'cmake_target' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'factarial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'factarial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'factarial' build argument 'cmake_clean_first' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'factarial' build argument 'cmake_force_configure' from command line to 'False'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'factarial' build argument 'ament_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'factarial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.466s] Level 5:colcon.colcon_core.verb:set package 'factarial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.466s] DEBUG:colcon.colcon_core.verb:Building package 'factarial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dworf/And/build/factarial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dworf/And/install/factarial', 'merge_install': False, 'path': '/home/dworf/And/src/factarial', 'symlink_install': False, 'test_result_base': None}
+[0.466s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.467s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.467s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dworf/And/src/cpp' with build type 'ament_cmake'
+[0.467s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dworf/And/src/cpp'
+[0.470s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.476s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dworf/And/src/factarial' with build type 'ament_cmake'
+[0.476s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dworf/And/src/factarial'
+[0.476s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dworf/And/build/cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --build /home/dworf/And/build/cpp -- -j16 -l16
+[0.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dworf/And/build/factarial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --build /home/dworf/And/build/factarial -- -j16 -l16
+[0.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dworf/And/build/cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --build /home/dworf/And/build/cpp -- -j16 -l16
+[0.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dworf/And/build/cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --install /home/dworf/And/build/cpp
+[0.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp)
+[0.644s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dworf/And/build/cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --install /home/dworf/And/build/cpp
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/cpp' for CMake module files
+[0.646s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/cpp' for CMake config files
+[0.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp', 'cmake_prefix_path')
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dworf/And/install/cpp/share/cpp/hook/cmake_prefix_path.ps1'
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dworf/And/install/cpp/share/cpp/hook/cmake_prefix_path.dsv'
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dworf/And/install/cpp/share/cpp/hook/cmake_prefix_path.sh'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/cpp/lib'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/cpp/bin'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/cpp/lib/pkgconfig/cpp.pc'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/cpp/lib/python3.10/site-packages'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/cpp/bin'
+[0.649s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/cpp/share/cpp/package.ps1'
+[0.650s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dworf/And/install/cpp/share/cpp/package.dsv'
+[0.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/cpp/share/cpp/package.sh'
+[0.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/cpp/share/cpp/package.bash'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/cpp/share/cpp/package.zsh'
+[0.653s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dworf/And/install/cpp/share/colcon-core/packages/cpp)
+[0.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp)
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/cpp' for CMake module files
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/cpp' for CMake config files
+[0.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp', 'cmake_prefix_path')
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dworf/And/install/cpp/share/cpp/hook/cmake_prefix_path.ps1'
+[0.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dworf/And/install/cpp/share/cpp/hook/cmake_prefix_path.dsv'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dworf/And/install/cpp/share/cpp/hook/cmake_prefix_path.sh'
+[0.693s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/cpp/lib'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/cpp/bin'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/cpp/lib/pkgconfig/cpp.pc'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/cpp/lib/python3.10/site-packages'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/cpp/bin'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/cpp/share/cpp/package.ps1'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dworf/And/install/cpp/share/cpp/package.dsv'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/cpp/share/cpp/package.sh'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/cpp/share/cpp/package.bash'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/cpp/share/cpp/package.zsh'
+[0.698s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dworf/And/install/cpp/share/colcon-core/packages/cpp)
+[3.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dworf/And/build/factarial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --build /home/dworf/And/build/factarial -- -j16 -l16
+[3.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dworf/And/build/factarial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --install /home/dworf/And/build/factarial
+[3.676s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(factarial)
+[3.676s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/factarial' for CMake module files
+[3.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dworf/And/build/factarial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --install /home/dworf/And/build/factarial
+[3.677s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/factarial' for CMake config files
+[3.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('factarial', 'cmake_prefix_path')
+[3.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dworf/And/install/factarial/share/factarial/hook/cmake_prefix_path.ps1'
+[3.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dworf/And/install/factarial/share/factarial/hook/cmake_prefix_path.dsv'
+[3.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dworf/And/install/factarial/share/factarial/hook/cmake_prefix_path.sh'
+[3.680s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/factarial/lib'
+[3.680s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/factarial/bin'
+[3.680s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/factarial/lib/pkgconfig/factarial.pc'
+[3.680s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/factarial/lib/python3.10/site-packages'
+[3.680s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/factarial/bin'
+[3.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/factarial/share/factarial/package.ps1'
+[3.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dworf/And/install/factarial/share/factarial/package.dsv'
+[3.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/factarial/share/factarial/package.sh'
+[3.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/factarial/share/factarial/package.bash'
+[3.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/factarial/share/factarial/package.zsh'
+[3.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dworf/And/install/factarial/share/colcon-core/packages/factarial)
+[3.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(factarial)
+[3.736s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/factarial' for CMake module files
+[3.737s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/factarial' for CMake config files
+[3.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('factarial', 'cmake_prefix_path')
+[3.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dworf/And/install/factarial/share/factarial/hook/cmake_prefix_path.ps1'
+[3.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dworf/And/install/factarial/share/factarial/hook/cmake_prefix_path.dsv'
+[3.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dworf/And/install/factarial/share/factarial/hook/cmake_prefix_path.sh'
+[3.739s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/factarial/lib'
+[3.739s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/factarial/bin'
+[3.739s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/factarial/lib/pkgconfig/factarial.pc'
+[3.739s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/factarial/lib/python3.10/site-packages'
+[3.740s] Level 1:colcon.colcon_core.environment:checking '/home/dworf/And/install/factarial/bin'
+[3.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/factarial/share/factarial/package.ps1'
+[3.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dworf/And/install/factarial/share/factarial/package.dsv'
+[3.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/factarial/share/factarial/package.sh'
+[3.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/factarial/share/factarial/package.bash'
+[3.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/dworf/And/install/factarial/share/factarial/package.zsh'
+[3.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dworf/And/install/factarial/share/colcon-core/packages/factarial)
+[3.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.743s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.743s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.748s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.748s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.748s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.764s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.765s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dworf/And/install/local_setup.ps1'
+[3.766s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dworf/And/install/_local_setup_util_ps1.py'
+[3.767s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dworf/And/install/setup.ps1'
+[3.768s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dworf/And/install/local_setup.sh'
+[3.769s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dworf/And/install/_local_setup_util_sh.py'
+[3.769s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dworf/And/install/setup.sh'
+[3.771s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dworf/And/install/local_setup.bash'
+[3.771s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dworf/And/install/setup.bash'
+[3.772s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dworf/And/install/local_setup.zsh'
+[3.773s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dworf/And/install/setup.zsh'

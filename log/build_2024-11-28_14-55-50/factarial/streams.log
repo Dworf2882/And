@@ -1,0 +1,56 @@
+[0.033s] Invoking command in '/home/dworf/And/build/factarial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --build /home/dworf/And/build/factarial -- -j16 -l16
+[0.146s] [35m[1mConsolidate compiler generated dependencies of target fact_cln[0m
+[0.183s] [ 25%] Built target service
+[0.183s] [ 50%] [32mBuilding CXX object CMakeFiles/fact_srv.dir/src/factSRV.cpp.o[0m
+[0.183s] [ 62%] Built target client
+[0.195s] [ 87%] Built target fact_cln
+[5.082s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.082s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.082s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.082s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.083s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.083s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.083s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.083s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.083s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.083s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.084s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.084s]                  from [01m[K/home/dworf/And/src/factarial/src/factSRV.cpp:1[m[K:
+[5.084s] [01m[K/home/dworf/And/src/factarial/src/factSRV.cpp:[m[K In function ‘[01m[Kvoid factorial(std::shared_ptr<test_msgs::srv::Fact_Request_<std::allocator<void> > >, std::shared_ptr<test_msgs::srv::Fact_Response_<std::allocator<void> > >)[m[K’:
+[5.084s] [01m[K/home/dworf/And/src/factarial/src/factSRV.cpp:20:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 6 has type ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.084s]    20 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Factorial of %d is %ld"[m[K, number,[32m[Kfactorial[m[K);
+[5.084s]       |                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K         [32m[K~~~~~~~~~[m[K
+[5.084s]       |                                                                                    [32m[K|[m[K
+[5.084s]       |                                                                                    [32m[Kunsigned int[m[K
+[5.085s] [01m[K/home/dworf/And/src/factarial/src/factSRV.cpp:20:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.085s]    20 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Factorial of %d is [01;36m[K%ld[m[K", number,factorial);
+[5.085s]       |                                                                       [01;36m[K~~^[m[K
+[5.085s]       |                                                                         [01;36m[K|[m[K
+[5.085s]       |                                                                         [01;36m[Klong int[m[K
+[5.085s]       |                                                                       [32m[K%d[m[K
+[6.383s] [100%] [32m[1mLinking CXX executable fact_srv[0m
+[6.552s] [100%] Built target fact_srv
+[6.567s] Invoked command in '/home/dworf/And/build/factarial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --build /home/dworf/And/build/factarial -- -j16 -l16
+[6.625s] Invoking command in '/home/dworf/And/build/factarial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --install /home/dworf/And/build/factarial
+[6.633s] -- Install configuration: ""
+[6.633s] -- Installing: /home/dworf/And/install/factarial/lib/factarial/fact_srv
+[6.635s] -- Set runtime path of "/home/dworf/And/install/factarial/lib/factarial/fact_srv" to ""
+[6.635s] -- Up-to-date: /home/dworf/And/install/factarial/lib/factarial/fact_cln
+[6.635s] -- Up-to-date: /home/dworf/And/install/factarial/lib/factarial/client
+[6.635s] -- Up-to-date: /home/dworf/And/install/factarial/lib/factarial/service
+[6.636s] -- Up-to-date: /home/dworf/And/install/factarial/share/ament_index/resource_index/package_run_dependencies/factarial
+[6.636s] -- Up-to-date: /home/dworf/And/install/factarial/share/ament_index/resource_index/parent_prefix_path/factarial
+[6.636s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/environment/ament_prefix_path.sh
+[6.636s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/environment/ament_prefix_path.dsv
+[6.636s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/environment/path.sh
+[6.636s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/environment/path.dsv
+[6.636s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/local_setup.bash
+[6.636s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/local_setup.sh
+[6.637s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/local_setup.zsh
+[6.637s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/local_setup.dsv
+[6.637s] -- Installing: /home/dworf/And/install/factarial/share/factarial/package.dsv
+[6.637s] -- Up-to-date: /home/dworf/And/install/factarial/share/ament_index/resource_index/packages/factarial
+[6.637s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/cmake/factarialConfig.cmake
+[6.637s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/cmake/factarialConfig-version.cmake
+[6.637s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/package.xml
+[6.639s] Invoked command in '/home/dworf/And/build/factarial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --install /home/dworf/And/build/factarial

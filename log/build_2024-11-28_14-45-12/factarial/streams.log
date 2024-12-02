@@ -1,0 +1,34 @@
+[0.017s] Invoking command in '/home/dworf/And/build/factarial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --build /home/dworf/And/build/factarial -- -j16 -l16
+[0.084s] [ 12%] [32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o[0m
+[0.089s] [ 87%] Built target client
+[0.089s] [ 87%] Built target fact_cln
+[0.089s] [ 87%] Built target fact_srv
+[2.964s] [100%] [32m[1mLinking CXX executable service[0m
+[3.119s] [100%] Built target service
+[3.133s] Invoked command in '/home/dworf/And/build/factarial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --build /home/dworf/And/build/factarial -- -j16 -l16
+[3.182s] Invoking command in '/home/dworf/And/build/factarial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --install /home/dworf/And/build/factarial
+[3.190s] -- Install configuration: ""
+[3.190s] -- Installing: /home/dworf/And/install/factarial/lib/factarial/fact_srv
+[3.191s] -- Set runtime path of "/home/dworf/And/install/factarial/lib/factarial/fact_srv" to ""
+[3.192s] -- Installing: /home/dworf/And/install/factarial/lib/factarial/fact_cln
+[3.193s] -- Set runtime path of "/home/dworf/And/install/factarial/lib/factarial/fact_cln" to ""
+[3.193s] -- Installing: /home/dworf/And/install/factarial/lib/factarial/client
+[3.194s] -- Set runtime path of "/home/dworf/And/install/factarial/lib/factarial/client" to ""
+[3.194s] -- Installing: /home/dworf/And/install/factarial/lib/factarial/service
+[3.195s] -- Set runtime path of "/home/dworf/And/install/factarial/lib/factarial/service" to ""
+[3.195s] -- Installing: /home/dworf/And/install/factarial/share/ament_index/resource_index/package_run_dependencies/factarial
+[3.195s] -- Installing: /home/dworf/And/install/factarial/share/ament_index/resource_index/parent_prefix_path/factarial
+[3.196s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/environment/ament_prefix_path.sh
+[3.196s] -- Installing: /home/dworf/And/install/factarial/share/factarial/environment/ament_prefix_path.dsv
+[3.196s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/environment/path.sh
+[3.196s] -- Installing: /home/dworf/And/install/factarial/share/factarial/environment/path.dsv
+[3.196s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/local_setup.bash
+[3.196s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/local_setup.sh
+[3.196s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/local_setup.zsh
+[3.196s] -- Installing: /home/dworf/And/install/factarial/share/factarial/local_setup.dsv
+[3.196s] -- Installing: /home/dworf/And/install/factarial/share/factarial/package.dsv
+[3.197s] -- Up-to-date: /home/dworf/And/install/factarial/share/ament_index/resource_index/packages/factarial
+[3.197s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/cmake/factarialConfig.cmake
+[3.197s] -- Up-to-date: /home/dworf/And/install/factarial/share/factarial/cmake/factarialConfig-version.cmake
+[3.197s] -- Installing: /home/dworf/And/install/factarial/share/factarial/package.xml
+[3.200s] Invoked command in '/home/dworf/And/build/factarial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble /usr/bin/cmake --install /home/dworf/And/build/factarial

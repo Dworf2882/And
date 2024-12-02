@@ -1,0 +1,4 @@
+source;share/factarial/local_setup.bash
+source;share/factarial/local_setup.dsv
+source;share/factarial/local_setup.sh
+source;share/factarial/local_setup.zsh

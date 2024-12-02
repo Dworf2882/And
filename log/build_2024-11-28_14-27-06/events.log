@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.000559] (cpp) JobQueued: {'identifier': 'cpp', 'dependencies': OrderedDict()}
+[0.000650] (factarial) JobQueued: {'identifier': 'factarial', 'dependencies': OrderedDict()}
+[0.001938] (cpp) JobStarted: {'identifier': 'cpp'}
+[0.018547] (factarial) JobStarted: {'identifier': 'factarial'}
+[0.032201] (cpp) JobProgress: {'identifier': 'cpp', 'progress': 'cmake'}
+[0.033497] (cpp) JobProgress: {'identifier': 'cpp', 'progress': 'build'}
+[0.035093] (cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dworf/And/build/cpp', '--', '-j16', '-l16'], 'cwd': '/home/dworf/And/build/cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/dworf/Firmware2/src/aerobot_gz_sim/worlds:/home/dworf/Firmware2/src/aerobot_gz_sim/models:'), ('USER', 'dworf'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dworf/test/install/test_msgs/lib:/home/dworf/Firmware2/install/gz_timer/lib:/home/dworf/Firmware2/install/car_with_qr/lib:/home/dworf/PinkDemon/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dworf'), ('OLDPWD', '/home/dworf'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1669'), ('SYSTEMD_EXEC_PID', '1867'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6558'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dworf/test/install:/home/dworf/Firmware2/install:/home/dworf/PinkDemon/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dworf'), ('JOURNAL_STREAM', '8:18822'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dworf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dworf/Firmware2/install/gz_timer/bin:/home/dworf/Firmware2/install/car_with_qr/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/dworf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dworf:@/tmp/.ICE-unix/1838,unix/dworf:/tmp/.ICE-unix/1838'), ('INVOCATION_ID', '11cbcbd8b779451ea8915925c39debe2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GZ_PARTITION', '101'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.12WPX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/home/dworf/test/install/factarial:/home/dworf/test/install/drontest:/home/dworf/test/install/test_msgs:/home/dworf/test/install/cpp:/home/dworf/Firmware2/install/gz_timer:/home/dworf/Firmware2/install/drone_dynamic_tf_broadcaster:/home/dworf/Firmware2/install/car_with_qr:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/home/dworf/PinkDemon/install/lslidar_driver:/home/dworf/PinkDemon/install/lslidar_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9a8b6726-5b9c-4393-8d58-7b0cb1c3b431'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dworf/And/build/cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dworf/test/install/drontest/lib/python3.10/site-packages:/home/dworf/test/install/test_msgs/local/lib/python3.10/dist-packages:/home/dworf/Firmware2/install/aerobot_gz_sim/lib/python3.10/site-packages:/home/dworf/PinkDemon/install/pink_demon/lib/python3.10/site-packages:/home/dworf/PinkDemon/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dworf/test/install/factarial:/home/dworf/test/install/test_msgs:/home/dworf/test/install/cpp:/home/dworf/Firmware2/install/gz_timer:/home/dworf/Firmware2/install/drone_dynamic_tf_broadcaster:/home/dworf/Firmware2/install/car_with_qr:/home/dworf/PinkDemon/install/lslidar_driver:/home/dworf/PinkDemon/install/lslidar_msgs:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble')]), 'shell': False}
+[0.044028] (factarial) JobProgress: {'identifier': 'factarial', 'progress': 'cmake'}
+[0.045214] (factarial) JobProgress: {'identifier': 'factarial', 'progress': 'build'}
+[0.047028] (factarial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dworf/And/build/factarial', '--', '-j16', '-l16'], 'cwd': '/home/dworf/And/build/factarial', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/dworf/Firmware2/src/aerobot_gz_sim/worlds:/home/dworf/Firmware2/src/aerobot_gz_sim/models:'), ('USER', 'dworf'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dworf/test/install/test_msgs/lib:/home/dworf/Firmware2/install/gz_timer/lib:/home/dworf/Firmware2/install/car_with_qr/lib:/home/dworf/PinkDemon/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dworf'), ('OLDPWD', '/home/dworf'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1669'), ('SYSTEMD_EXEC_PID', '1867'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6558'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dworf/test/install:/home/dworf/Firmware2/install:/home/dworf/PinkDemon/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dworf'), ('JOURNAL_STREAM', '8:18822'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dworf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dworf/Firmware2/install/gz_timer/bin:/home/dworf/Firmware2/install/car_with_qr/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/dworf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dworf:@/tmp/.ICE-unix/1838,unix/dworf:/tmp/.ICE-unix/1838'), ('INVOCATION_ID', '11cbcbd8b779451ea8915925c39debe2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GZ_PARTITION', '101'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.12WPX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/home/dworf/test/install/factarial:/home/dworf/test/install/drontest:/home/dworf/test/install/test_msgs:/home/dworf/test/install/cpp:/home/dworf/Firmware2/install/gz_timer:/home/dworf/Firmware2/install/drone_dynamic_tf_broadcaster:/home/dworf/Firmware2/install/car_with_qr:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/home/dworf/PinkDemon/install/lslidar_driver:/home/dworf/PinkDemon/install/lslidar_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9a8b6726-5b9c-4393-8d58-7b0cb1c3b431'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dworf/And/build/factarial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dworf/test/install/drontest/lib/python3.10/site-packages:/home/dworf/test/install/test_msgs/local/lib/python3.10/dist-packages:/home/dworf/Firmware2/install/aerobot_gz_sim/lib/python3.10/site-packages:/home/dworf/PinkDemon/install/pink_demon/lib/python3.10/site-packages:/home/dworf/PinkDemon/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dworf/test/install/factarial:/home/dworf/test/install/test_msgs:/home/dworf/test/install/cpp:/home/dworf/Firmware2/install/gz_timer:/home/dworf/Firmware2/install/drone_dynamic_tf_broadcaster:/home/dworf/Firmware2/install/car_with_qr:/home/dworf/PinkDemon/install/lslidar_driver:/home/dworf/PinkDemon/install/lslidar_msgs:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble')]), 'shell': False}
+[0.099523] (-) TimerEvent: {}
+[0.115810] (factarial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.184666] (cpp) StdoutLine: {'line': b'[100%] Built target sensor\n'}
+[0.199659] (-) TimerEvent: {}
+[0.214288] (cpp) CommandEnded: {'returncode': 0}
+[0.288810] (cpp) JobProgress: {'identifier': 'cpp', 'progress': 'install'}
+[0.299808] (-) TimerEvent: {}
+[0.312840] (cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dworf/And/build/cpp'], 'cwd': '/home/dworf/And/build/cpp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/dworf/Firmware2/src/aerobot_gz_sim/worlds:/home/dworf/Firmware2/src/aerobot_gz_sim/models:'), ('USER', 'dworf'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dworf/test/install/test_msgs/lib:/home/dworf/Firmware2/install/gz_timer/lib:/home/dworf/Firmware2/install/car_with_qr/lib:/home/dworf/PinkDemon/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dworf'), ('OLDPWD', '/home/dworf'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1669'), ('SYSTEMD_EXEC_PID', '1867'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6558'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dworf/test/install:/home/dworf/Firmware2/install:/home/dworf/PinkDemon/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dworf'), ('JOURNAL_STREAM', '8:18822'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dworf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/dworf/Firmware2/install/gz_timer/bin:/home/dworf/Firmware2/install/car_with_qr/bin:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/dworf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dworf:@/tmp/.ICE-unix/1838,unix/dworf:/tmp/.ICE-unix/1838'), ('INVOCATION_ID', '11cbcbd8b779451ea8915925c39debe2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GZ_PARTITION', '101'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.12WPX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '101'), ('AMENT_PREFIX_PATH', '/home/dworf/test/install/factarial:/home/dworf/test/install/drontest:/home/dworf/test/install/test_msgs:/home/dworf/test/install/cpp:/home/dworf/Firmware2/install/gz_timer:/home/dworf/Firmware2/install/drone_dynamic_tf_broadcaster:/home/dworf/Firmware2/install/car_with_qr:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/home/dworf/PinkDemon/install/lslidar_driver:/home/dworf/PinkDemon/install/lslidar_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:9a8b6726-5b9c-4393-8d58-7b0cb1c3b431'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dworf/And/build/cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dworf/test/install/drontest/lib/python3.10/site-packages:/home/dworf/test/install/test_msgs/local/lib/python3.10/dist-packages:/home/dworf/Firmware2/install/aerobot_gz_sim/lib/python3.10/site-packages:/home/dworf/PinkDemon/install/pink_demon/lib/python3.10/site-packages:/home/dworf/PinkDemon/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dworf/test/install/factarial:/home/dworf/test/install/test_msgs:/home/dworf/test/install/cpp:/home/dworf/Firmware2/install/gz_timer:/home/dworf/Firmware2/install/drone_dynamic_tf_broadcaster:/home/dworf/Firmware2/install/car_with_qr:/home/dworf/PinkDemon/install/lslidar_driver:/home/dworf/PinkDemon/install/lslidar_msgs:/home/dworf/test/install/drontest:/home/dworf/Firmware2/install/aerobot_gz_sim:/home/dworf/PinkDemon/install/pink_demon:/opt/ros/humble')]), 'shell': False}
+[0.331620] (cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.332189] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/lib/cpp/sensor\n'}
+[0.332788] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/share/ament_index/resource_index/package_run_dependencies/cpp\n'}
+[0.333061] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/share/ament_index/resource_index/parent_prefix_path/cpp\n'}
+[0.333401] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/share/cpp/environment/ament_prefix_path.sh\n'}
+[0.333878] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/share/cpp/environment/ament_prefix_path.dsv\n'}
+[0.334126] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/share/cpp/environment/path.sh\n'}
+[0.334288] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/share/cpp/environment/path.dsv\n'}
+[0.334438] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/share/cpp/local_setup.bash\n'}
+[0.334645] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/share/cpp/local_setup.sh\n'}
+[0.334908] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/share/cpp/local_setup.zsh\n'}
+[0.335060] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/share/cpp/local_setup.dsv\n'}
+[0.335327] (cpp) StdoutLine: {'line': b'-- Installing: /home/dworf/And/install/cpp/share/cpp/package.dsv\n'}
+[0.335489] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/share/ament_index/resource_index/packages/cpp\n'}
+[0.335622] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/share/cpp/cmake/cppConfig.cmake\n'}
+[0.335754] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/share/cpp/cmake/cppConfig-version.cmake\n'}
+[0.335884] (cpp) StdoutLine: {'line': b'-- Up-to-date: /home/dworf/And/install/cpp/share/cpp/package.xml\n'}
+[0.339608] (cpp) CommandEnded: {'returncode': 0}
+[0.399969] (-) TimerEvent: {}
+[0.444181] (factarial) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.448446] (cpp) JobEnded: {'identifier': 'cpp', 'rc': 0}
+[0.500108] (-) TimerEvent: {}
+[0.530556] (factarial) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.538410] (factarial) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.556060] (factarial) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.584943] (factarial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.600268] (-) TimerEvent: {}
+[0.621500] (factarial) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700424] (-) TimerEvent: {}
+[0.714213] (factarial) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.719398] (factarial) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.773810] (factarial) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.800580] (-) TimerEvent: {}
+[0.900984] (-) TimerEvent: {}
+[0.909124] (factarial) StdoutLine: {'line': b'-- Found test_msgs: 0.0.0 (/home/dworf/test/install/test_msgs/share/test_msgs/cmake)\n'}
+[0.945323] (factarial) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.001120] (-) TimerEvent: {}
+[1.101535] (-) TimerEvent: {}
+[1.116277] (factarial) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.116757] (factarial) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.116935] (factarial) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.118275] (factarial) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.121121] (factarial) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.121371] (factarial) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.122105] (factarial) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.124160] (factarial) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.170512] (factarial) StdoutLine: {'line': b'-- Generating done\n'}
+[1.175412] (factarial) StdoutLine: {'line': b'-- Build files have been written to: /home/dworf/And/build/factarial\n'}
+[1.201725] (-) TimerEvent: {}
+[1.237827] (factarial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fact_cln\x1b[0m\n'}
+[1.238808] (factarial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target fact_srv\x1b[0m\n'}
+[1.264393] (factarial) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o\x1b[0m\n'}
+[1.266713] (factarial) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o\x1b[0m\n'}
+[1.287277] (factarial) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/fact_cln.dir/src/factCNT.cpp.o\x1b[0m\n'}
+[1.288531] (factarial) StdoutLine: {'line': b'[ 62%] Built target fact_srv\n'}
+[1.301820] (-) TimerEvent: {}
+[1.402214] (-) TimerEvent: {}
+[1.502697] (-) TimerEvent: {}
+[1.603122] (-) TimerEvent: {}
+[1.703558] (-) TimerEvent: {}
+[1.803976] (-) TimerEvent: {}
+[1.904417] (-) TimerEvent: {}
+[1.920009] (factarial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dworf/And/src/factarial/src/service.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kexample_interfaces/srv/add_two_ints.hpp: No such file or directory\n'}
+[1.920363] (factarial) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"example_interfaces/srv/add_two_ints.hpp"\x1b[m\x1b[K\n'}
+[1.920519] (factarial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.920652] (factarial) StderrLine: {'line': b'compilation terminated.\n'}
+[1.921679] (factarial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dworf/And/src/factarial/src/client.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kexample_interfaces/srv/add_two_ints.hpp: No such file or directory\n'}
+[1.921910] (factarial) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"example_interfaces/srv/add_two_ints.hpp"\x1b[m\x1b[K\n'}
+[1.922054] (factarial) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.922184] (factarial) StderrLine: {'line': b'compilation terminated.\n'}
+[1.936287] (factarial) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1\n'}
+[1.936629] (factarial) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/service.dir/build.make:76: CMakeFiles/service.dir/src/service.cpp.o] Error 1\n'}
+[1.936912] (factarial) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/client.dir/all] Error 2\n'}
+[1.937079] (factarial) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.937210] (factarial) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/service.dir/all] Error 2\n'}
+[2.004569] (-) TimerEvent: {}
+[2.105207] (-) TimerEvent: {}
+[2.205663] (-) TimerEvent: {}
+[2.306090] (-) TimerEvent: {}
+[2.406528] (-) TimerEvent: {}
+[2.506943] (-) TimerEvent: {}
+[2.607341] (-) TimerEvent: {}
+[2.707759] (-) TimerEvent: {}
+[2.808187] (-) TimerEvent: {}
+[2.908629] (-) TimerEvent: {}
+[3.009058] (-) TimerEvent: {}
+[3.109523] (-) TimerEvent: {}
+[3.209941] (-) TimerEvent: {}
+[3.310351] (-) TimerEvent: {}
+[3.410785] (-) TimerEvent: {}
+[3.511191] (-) TimerEvent: {}
+[3.611618] (-) TimerEvent: {}
+[3.712024] (-) TimerEvent: {}
+[3.812450] (-) TimerEvent: {}
+[3.912858] (-) TimerEvent: {}
+[4.013287] (-) TimerEvent: {}
+[4.113703] (-) TimerEvent: {}
+[4.214119] (-) TimerEvent: {}
+[4.314555] (-) TimerEvent: {}
+[4.414974] (-) TimerEvent: {}
+[4.515401] (-) TimerEvent: {}
+[4.615836] (-) TimerEvent: {}
+[4.716263] (-) TimerEvent: {}
+[4.816675] (-) TimerEvent: {}
+[4.917086] (-) TimerEvent: {}
+[5.017520] (-) TimerEvent: {}
+[5.117930] (-) TimerEvent: {}
+[5.218343] (-) TimerEvent: {}
+[5.318761] (-) TimerEvent: {}
+[5.419173] (-) TimerEvent: {}
+[5.519602] (-) TimerEvent: {}
+[5.620009] (-) TimerEvent: {}
+[5.720442] (-) TimerEvent: {}
+[5.820855] (-) TimerEvent: {}
+[5.921283] (-) TimerEvent: {}
+[6.021698] (-) TimerEvent: {}
+[6.122132] (-) TimerEvent: {}
+[6.167328] (factarial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.167626] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.167778] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.167916] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.168050] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.168210] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.168373] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.168512] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.168653] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.168787] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.168919] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.169051] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dworf/And/src/factarial/src/factCNT.cpp:1\x1b[m\x1b[K:\n'}
+[6.169206] (factarial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dworf/And/src/factarial/src/factCNT.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.169366] (factarial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dworf/And/src/factarial/src/factCNT.cpp:27:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ktest_msgs::srv::Fact_Request_<std::allocator<void> >::_numb_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.169517] (factarial) StderrLine: {'line': b'   27 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Factorial of %d is %d"\x1b[m\x1b[K, \x1b[32m\x1b[Krequest->numb\x1b[m\x1b[K, result.get()->result);\n'}
+[6.169655] (factarial) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.169789] (factarial) StderrLine: {'line': b'      |                                                                                     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[6.169922] (factarial) StderrLine: {'line': b'      |                                                                                     \x1b[32m\x1b[Ktest_msgs::srv::Fact_Request_<std::allocator<void> >::_numb_type {aka long int}\x1b[m\x1b[K\n'}
+[6.170056] (factarial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dworf/And/src/factarial/src/factCNT.cpp:27:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[6.170195] (factarial) StderrLine: {'line': b'   27 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Factorial of \x1b[01;36m\x1b[K%d\x1b[m\x1b[K is %d", request->numb, result.get()->result);\n'}
+[6.170360] (factarial) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[6.170524] (factarial) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[6.170672] (factarial) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[6.170805] (factarial) StderrLine: {'line': b'      |                                                                 \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[6.170936] (factarial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[6.171069] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.171221] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.171378] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.171508] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.171635] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.171762] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.171889] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.172016] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.172144] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.172287] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.172429] (factarial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dworf/And/src/factarial/src/factCNT.cpp:1\x1b[m\x1b[K:\n'}
+[6.172557] (factarial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dworf/And/src/factarial/src/factCNT.cpp:27:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Ktest_msgs::srv::Fact_Response_<std::allocator<void> >::_result_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.172711] (factarial) StderrLine: {'line': b'   27 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Factorial of %d is %d"\x1b[m\x1b[K, request->numb, \x1b[32m\x1b[Kresult.get()->result\x1b[m\x1b[K);\n'}
+[6.172841] (factarial) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                 \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.172968] (factarial) StderrLine: {'line': b'      |                                                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[6.173096] (factarial) StderrLine: {'line': b'      |                                                                                                         \x1b[32m\x1b[Ktest_msgs::srv::Fact_Response_<std::allocator<void> >::_result_type {aka long int}\x1b[m\x1b[K\n'}
+[6.173242] (factarial) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dworf/And/src/factarial/src/factCNT.cpp:27:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[6.173421] (factarial) StderrLine: {'line': b'   27 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Factorial of %d is \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", request->numb, result.get()->result);\n'}
+[6.173551] (factarial) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[6.173680] (factarial) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[6.173807] (factarial) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[6.173935] (factarial) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[6.222299] (-) TimerEvent: {}
+[6.322702] (-) TimerEvent: {}
+[6.423113] (-) TimerEvent: {}
+[6.523539] (-) TimerEvent: {}
+[6.623947] (-) TimerEvent: {}
+[6.724352] (-) TimerEvent: {}
+[6.824756] (-) TimerEvent: {}
+[6.925166] (-) TimerEvent: {}
+[7.025612] (-) TimerEvent: {}
+[7.126043] (-) TimerEvent: {}
+[7.226511] (-) TimerEvent: {}
+[7.326942] (-) TimerEvent: {}
+[7.427353] (-) TimerEvent: {}
+[7.527935] (-) TimerEvent: {}
+[7.628350] (-) TimerEvent: {}
+[7.728764] (-) TimerEvent: {}
+[7.829166] (-) TimerEvent: {}
+[7.929695] (-) TimerEvent: {}
+[8.030296] (-) TimerEvent: {}
+[8.058993] (factarial) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable fact_cln\x1b[0m\n'}
+[8.130443] (-) TimerEvent: {}
+[8.230847] (-) TimerEvent: {}
+[8.260512] (factarial) StdoutLine: {'line': b'[ 75%] Built target fact_cln\n'}
+[8.262860] (factarial) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.266162] (factarial) CommandEnded: {'returncode': 2}
+[8.330971] (-) TimerEvent: {}
+[8.334951] (factarial) JobEnded: {'identifier': 'factarial', 'rc': 2}
+[8.345758] (-) EventReactorShutdown: {}
